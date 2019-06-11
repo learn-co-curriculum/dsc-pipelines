@@ -42,7 +42,7 @@ A really good blogpost on the basic ideas of pipelining can be found [here](http
 
 Note that the above pipeline simply creates one pipeline for a training set, and evaluates on a test set. Is it possible to create a pipeline that performs grid search? And Cross-Validation? Yes we can!
 
-Some code is shown below. You simply create the pipe the way we did it before. Next, you create a parameter grid. When this is all done, you use the function `GridSearchCV()`, which you've seen before, and specify the pipeline as the estimator and the parameter grid. You also have to define how many folds you'll use in your crossvalisation. 
+Some code is shown below. You simply create the pipe the way we did it before. Next, you create a parameter grid. When this is all done, you use the function `GridSearchCV()`, which you've seen before, and specify the pipeline as the estimator and the parameter grid. You also have to define how many folds you'll use in your cross-validation. 
 
 ```python
 # Create the pipeline
