@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Great! You're knowledge has expanded significantly in the previous sections. You learned several unsupervised learning techniques 
+You've learned a substantial number of different supervised and unsupervised learning techniques. Now, it's time to learn about a handy tool used to integrate multiple machine learning processes into a single manageable pipeline.
 
 ## Objectives
 
